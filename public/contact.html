@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <nav class="bg-blue-600 p-4 text-white">
+        <ul class="flex space-x-4">
+            <li><a href="./index.html" class="hover:underline">Home</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="contact.html" class="hover:underline">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="text-center py-16 bg-blue-300">
+        <h1 class="text-5xl font-bold">Contact Us</h1>
+        <p class="mt-4 text-xl">We'd love to hear from you!</p>
+    </header>
+
+    <section class="container mx-auto py-16">
+        <h2 class="text-3xl font-bold text-center">Get In Touch</h2>
+        <form class="mt-8 max-w-lg mx-auto bg-white p-6 rounded-lg shadow-lg">
+            <div class="mb-4">
+                <label for="name" class="block text-lg font-bold">Name</label>
+                <input type="text" id="name" class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-lg font-bold">Email</label>
+                <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-lg font-bold">Message</label>
+                <textarea id="message" class="w-full border border-gray-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
